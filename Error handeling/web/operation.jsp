@@ -1,7 +1,7 @@
 
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page isErrorPage = "true"%>
+<%@page errorPage = "error.jsp"%>
 <!DOCTYPE html>
 <html>
     <head>

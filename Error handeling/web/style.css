@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid rgb(163, 38, 63);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      
+}
+.form{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+.form input{
+    border: none;
+    height: 30px;
+    width: 260px;
+    border-bottom: 2px solid rgb(183, 44, 111);
+    font-family: 'Courier New', Courier, monospace;
+     
+}
+.form input:focus{
+   outline: none;
+  box-shadow: none;
+  
+}
+.form button{
+    background-color: rgb(91, 5, 58);
+    color: white;
+    padding: 7px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
